@@ -8,8 +8,13 @@ Sample Input 1:
 
 Output:
 2.738613
+    
+Explanation:
+Sum of squares = 1 + 4 + 9 + 16 = 30
+Mean = 30 / 4 = 7.5
+Taking square root of 7.5 gives 2.738613
 
-
+// CODE IMPLEMENTATION <---->
 import java.io.*; // for handling input/output
 import java.util.*; // contains Collections framework
 import java.util.Scanner;
