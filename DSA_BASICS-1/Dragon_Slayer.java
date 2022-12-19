@@ -22,17 +22,19 @@ Natsu's attack:- A = -1, B =2, C = 1, D=3
 Natsu's win
   
   CODE IMPLEMENTATION <---------------------------------->
-  static int DragonSlayer(int A, int B, int C,int D)
+static int DragonSlayer(int A, int B, int C,int D)
 { 
     while(A>=0 || C>=0) 
 {
     A=A-D;
     if(A<=0)
         break;
-        C=C-B;
+    
+    C=C-B;
         if(C<=0)
         break;
     }
+    
     if(A<=0)
     return 1;
     else
